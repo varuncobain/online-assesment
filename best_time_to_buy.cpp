@@ -19,7 +19,7 @@ int besttime(vector<int> prices){
 }
 
 int main() {
-    vector<int> prices{7,1,5,3,6,4};
+    vector<int> prices{7,10,4,10,6,5,2};
     int result = besttime(prices);
     cout<<result;
     return 0;
